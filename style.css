@@ -33,13 +33,12 @@ body {
 
 
 .blog-card {
-  /* width: 24rem; */
-  /* height: 32.625rem; */
   display: flex;
   flex-direction: column;
   gap: 24px;
   min-width: 20.4375rem;
   max-width: 24rem;
+  margin: 1rem;
   background-color: var(--white);
   border: 1px solid black;
   border-radius: 20px;

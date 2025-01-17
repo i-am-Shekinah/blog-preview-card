@@ -32,6 +32,12 @@ body {
 }
 
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -71,7 +77,7 @@ h2.card-title {
   font: var(--text-preset-1);
 }
 
-.card-content > .card-description {
+.card-content>.card-description {
   color: var(--gray-500);
 }
 
@@ -82,7 +88,7 @@ h2.card-title {
   font: var(--text-preset-3-bold);
 }
 
-.user-profile > img {
+.user-profile>img {
   width: 2rem;
   height: 2rem;
 }
@@ -103,15 +109,15 @@ h2.card-title {
     font-size: 0.75rem;
   }
 
- .blog-card {
-  width: 21rem;
- }
+  .blog-card {
+    width: 21rem;
+  }
 
- h2.card-title {
-  font-size: 1.25rem;
- }
+  h2.card-title {
+    font-size: 1.25rem;
+  }
 
- .card-content > .card-description {
-  font-size: 0.875rem;
- }
+  .card-content>.card-description {
+    font-size: 0.875rem;
+  }
 }

@@ -18,8 +18,11 @@
 
 
 body {
-  /* display: grid; */
-  /* place-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   font: var(--text-preset-2);
   letter-spacing: 0rem;
   font-family: "Figtree", sans-serif;

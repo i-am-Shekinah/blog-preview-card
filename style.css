@@ -77,6 +77,10 @@ h2.card-title {
   font: var(--text-preset-1);
 }
 
+h2.card-title:hover {
+  color: var(--yellow);
+}
+
 .card-content>.card-description {
   color: var(--gray-500);
 }
